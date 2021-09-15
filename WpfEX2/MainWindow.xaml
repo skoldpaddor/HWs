@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfEX2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfEX2"
+        mc:Ignorable="d"
+        Title="Главная страница" Height="553.846" Width="631.868">
+    <Grid Margin="0,0,2,18">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="481*"/>
+            <ColumnDefinition Width="51*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Запись анкеты" HorizontalAlignment="Left" Margin="61,256,0,0" VerticalAlignment="Top" Width="129" Height="39" Click="Button_Click" Grid.ColumnSpan="2"/>
+        <Button Content="Статистика" HorizontalAlignment="Left" Margin="61,391,0,0" VerticalAlignment="Top" Width="126" Height="39" Click="Button_Click_1" Grid.ColumnSpan="2"/>
+        <Button Content="Просмотреть анкету" HorizontalAlignment="Left" Margin="112,391,0,0" VerticalAlignment="Top" Width="126" Height="39" RenderTransformOrigin="1.712,0.377" Grid.Column="1" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
